@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400;0,700;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mina:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif+Bengali:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,wght@1,800&display=swap");
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --font-arimo: Arimo;
+  --font-noto-serif-bengali: "Noto Serif Bengali";
+  --font-mina: Mina;
+  --font-inter: Inter;
+
+  /* font sizes */
+  --font-size-sm: 14px;
+  --font-size-lg: 18px;
+  --font-size-mini: 15px;
+  --font-size-5xl: 24px;
+  --font-size-xl: 20px;
+  --font-size-base: 16px;
+
+  /* Colors */
+  --color-gray-100: rgba(255, 255, 255, 0.8);
+  --color-gray-200: rgba(255, 255, 255, 0);
+  --color-black: #000;
+  --color-white: #fff;
+  --color-orchid: #d47ce3;
+
+  /* Gaps */
+  --gap-3xs: 10px;
+  --gap-xl: 20px;
+  --gap-6xs: 7px;
+  --gap-31xl: 50px;
+  --gap-12xl: 31px;
+  --gap-24xl: 43px;
+  --gap-smi: 13px;
+  --gap-8xs: 5px;
+  --gap-21xl: 40px;
+  --gap-base: 16px;
+  --gap-16xl: 35px;
+  --gap-7xs: 6px;
+
+  /* Paddings */
+  --padding-3xs: 10px;
+  --padding-8xs: 5px;
+  --padding-5xs: 8px;
+  --padding-45xl: 64px;
+  --padding-81xl: 100px;
+  --padding-base: 16px;
+
+  /* Border radiuses */
+  --br-xs: 12px;
+  --br-8xs: 5px;
+  --br-3xs: 10px;
+}

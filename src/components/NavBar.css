@@ -1,0 +1,20 @@
+.navbar {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-8xs);
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 590px) {
+  .navbar {
+    flex-direction: column;
+    gap: var(--gap-21xl);
+    align-items: center;
+    justify-content: center;
+  }
+}

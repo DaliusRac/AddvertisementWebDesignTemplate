@@ -1,0 +1,41 @@
+.townselectionnametext {
+  flex: 1;
+  position: relative;
+  font-size: var(--font-size-mini);
+  font-family: var(--font-mina);
+  color: var(--color-black);
+  text-align: left;
+}
+.filtercategories,
+.townselectionframe {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.townselectionframe {
+  cursor: pointer;
+  border: 0;
+  padding: 0 var(--padding-3xs);
+  background-color: var(--color-white);
+  border-radius: var(--br-8xs);
+  width: 73px;
+  box-sizing: border-box;
+  align-items: center;
+}
+.filtercategories {
+  flex: 1;
+  align-items: flex-end;
+  gap: var(--gap-16xl);
+}
+@media screen and (max-width: 1440px) {
+  .filtercategories {
+    gap: var(--gap-16xl);
+  }
+}
+@media screen and (max-width: 590px) {
+  .filtercategories {
+    flex-direction: row;
+    flex: unset;
+    align-self: stretch;
+  }
+}

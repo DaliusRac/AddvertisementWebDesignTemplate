@@ -1,0 +1,85 @@
+@keyframes slide-in-left {
+  0% {
+    transform: translateX(-200px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+.prisijungti {
+  position: relative;
+}
+.drawerloginbuttonframe {
+  overflow: hidden;
+  display: flex;
+  padding: 0 4px;
+  align-items: center;
+  justify-content: center;
+}
+.drawerloginbuttonframe,
+.drawerregbuttonframe {
+  text-decoration: none;
+  border-radius: var(--br-8xs);
+  background: linear-gradient(
+    90.8deg,
+    rgba(255, 255, 255, 0.43),
+    rgba(218, 201, 255, 0.42) 45.31%,
+    rgba(164, 222, 255, 0.42)
+  );
+  flex-direction: row;
+  color: inherit;
+}
+.drawer-menu,
+.drawerhistorybuttonframe,
+.drawerregbuttonframe {
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.drawerhistorybuttonframe {
+  text-decoration: none;
+  border-radius: var(--br-8xs);
+  background: linear-gradient(
+    90.8deg,
+    rgba(255, 255, 255, 0.43),
+    rgba(218, 201, 255, 0.42) 45.31%,
+    rgba(164, 222, 255, 0.42)
+  );
+  flex-direction: row;
+  padding: 0 var(--padding-base);
+  color: inherit;
+}
+.drawer-menu {
+  background: linear-gradient(
+      -63.98deg,
+      rgba(106, 72, 200, 0.2),
+      rgba(214, 144, 246, 0.04) 30.27%,
+      rgba(95, 186, 180, 0.12)
+    ),
+    linear-gradient(
+      179.45deg,
+      #fff,
+      #fff 25%,
+      #feffff 50%,
+      #ecfcff 75%,
+      #b6e8f3
+    );
+  width: 261px;
+  flex-direction: column;
+  padding: var(--padding-5xs);
+  box-sizing: border-box;
+  gap: var(--gap-12xl);
+  opacity: 0;
+  height: 100%;
+  max-width: 90%;
+  text-align: left;
+  font-size: var(--font-size-mini);
+  color: var(--color-black);
+  font-family: var(--font-mina);
+}
+.drawer-menu.animate {
+  animation: 0.25s ease 0s 1 normal forwards slide-in-left;
+}

@@ -1,0 +1,61 @@
+.footerhelpinfonametext {
+  position: relative;
+  line-height: 30px;
+}
+.footerhelpinfoframe,
+.footerworkhoursinfoframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-3xs) var(--padding-base);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+}
+.footerworkhoursinfoframe {
+  top: 50px;
+  padding: var(--padding-3xs);
+}
+.faqnametext {
+  text-decoration: none;
+  position: relative;
+  line-height: 30px;
+  font-style: italic;
+  color: inherit;
+}
+.footermenuframe {
+  position: absolute;
+  top: calc(50% - 15px);
+  right: 0;
+  height: 30px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 0 var(--padding-base);
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-24xl);
+}
+.footerframe {
+  align-self: stretch;
+  position: relative;
+  border-radius: var(--br-8xs);
+  background: linear-gradient(
+    90.29deg,
+    #fff,
+    rgba(249, 249, 249, 0.98) 20.87%,
+    rgba(249, 249, 249, 0.95) 47.92%,
+    rgba(245, 245, 245, 0.92) 82.18%,
+    rgba(234, 251, 255, 0.9)
+  );
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  height: 100px;
+  text-align: left;
+  font-size: var(--font-size-sm);
+  color: var(--color-black);
+  font-family: var(--font-arimo);
+}

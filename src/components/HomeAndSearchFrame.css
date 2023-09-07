@@ -1,0 +1,177 @@
+.home-4-home-house-roof-shelte-icon {
+  position: relative;
+  width: 32px;
+  height: 32px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.homebuttontext {
+  position: relative;
+  display: inline-block;
+  font-weight: 800;
+  background: linear-gradient(92.71deg, #d01818 13.02%, #103a8c);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  width: 147px;
+  height: 32px;
+  flex-shrink: 0;
+}
+.homebutton {
+  text-decoration: none;
+  border-radius: var(--br-3xs);
+  background: linear-gradient(
+    -87.38deg,
+    rgba(186, 227, 236, 0),
+    rgba(170, 158, 223, 0.2) 44.79%,
+    rgba(170, 158, 223, 0.2)
+  );
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-5xs);
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-base);
+  z-index: 0;
+}
+.line {
+  position: relative;
+  border-radius: var(--br-8xs);
+  background-color: var(--color-orchid);
+  width: 24px;
+  height: 2px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.drawermenu-button {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-5xs);
+  background-color: transparent;
+  margin: 0 !important;
+  position: absolute;
+  top: 7px;
+  left: 0;
+  overflow: hidden;
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-7xs);
+  z-index: 1;
+}
+.searchinput {
+  border: 0;
+  background-color: var(--color-gray-100);
+  align-self: stretch;
+  flex: 1;
+  border-radius: var(--br-8xs);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+}
+.magnifying-glass-glass-search-icon {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.searchbutton {
+  text-decoration: none;
+  position: relative;
+  width: 32px;
+  height: 32px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.search {
+  flex: 1;
+  background-color: var(--color-gray-200);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-5xs);
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-base);
+  z-index: 2;
+}
+.homeandsearchbox,
+.homeandsearchframe {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.homeandsearchbox {
+  align-self: stretch;
+  flex-direction: row;
+  position: relative;
+}
+.homeandsearchframe {
+  width: 573px;
+  height: 48px;
+  flex-direction: column;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 1440px) {
+  .search {
+    flex-direction: row;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .homebutton {
+    flex: 1;
+  }
+  .drawermenu-button {
+    display: flex;
+    flex: 1;
+  }
+  .search {
+    flex: 1;
+  }
+  .homeandsearchbox {
+    display: flex;
+    align-self: stretch;
+    width: auto;
+    align-items: center;
+    justify-content: flex-start;
+  }
+}
+@media screen and (max-width: 590px) {
+  .drawermenu-button,
+  .homebutton {
+    width: auto;
+    align-items: center;
+    justify-content: center;
+  }
+  .homebutton {
+    align-self: unset;
+    flex-direction: row;
+  }
+  .drawermenu-button {
+    align-self: stretch;
+    flex: 1;
+  }
+  .searchinput {
+    flex-direction: row;
+    min-width: 100px;
+  }
+  .search {
+    height: auto;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    flex: unset;
+    align-self: stretch;
+  }
+  .homeandsearchbox {
+    flex-direction: column;
+  }
+}
